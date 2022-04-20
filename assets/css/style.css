@@ -160,3 +160,48 @@ aside>ul>li:hover {
     background-color: #2e5a87;
     transition: 500ms;
 }
+
+.divModal{
+    height: 40vh;
+    width: 20vw;
+    background-color: #fff;
+    margin: auto;
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    border: #0000ff 5px solid;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.divModal h2{
+    color: #0000ff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.divModal p {
+    text-align: center;
+}
+
+.divModal button{
+    background-color: #0000ff;
+    font-weight: bold;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.sumir{
+    display: none;
+}
